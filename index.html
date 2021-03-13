@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="navbar">
+	<div class="container">
+		<a class="logo" href="index.html">
+			Remember<span>That</span>
+		</a>
+		
+		<a class="mobile-menu" href="#"><i id="mobile-cta" class="fas fa-bars"></i></a>
+<!-- 		<img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation"> -->
+		
+		<nav style="position: fixed; z-index: 999; width: 66%; right: 0; top: 0; background: #20272e; height: 100vh; padding: 1em;">
+<!-- 			<img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation"> -->
+			<i id="mobile-exit" style="color: #fff; font-size: 25px;" class="fas fa-times mobile-menu-exit"></i>
+			<ul class="primary-nav">
+				<li class="current"><a href="#">Home</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Pricing</a></li>
+			</ul>
+			
+			<ul class="secondary-nav">
+				<li><a href="#">Contact</a></li>
+				<li class="go-premium-cta"><a href="#">Go Premium</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<section class="hero">
+	<div class="container">
+		<div class="left-col">
+			<p class="subhead">It's Nitty &amp; Gritty</p>
+			<h1 class="headline">A Task App That Doesn't Stick</h1>
+			<div class="hero-cta">
+				<a href="#" class="primary-cta">Try for free</a>
+				<a href="#" class="watch-video-cta">
+<!-- 					<img src="images/watch.svg" alt="Watch a video"> -->
+					<i class="fas fa-video"></i> Watch a video
+				</a>
+			</div>
+		</div>
+		
+		<img class="hero-img" src="//unsplash.it/500" alt="Illustration image">
+<!-- 		<img class="hero-img" src="images/Illustration.svg" alt="Illustration image"> -->
+	</div>
+</section>
+
+<section class="features-section">
+	<div class="container">
+		<ul>
+			<li>
+				<i class="fas fa-check-circle"></i>
+				Unlimited Tasks</li>
+			<li>
+				<i class="fas fa-check-circle"></i>
+				SMS Task Reminders</li>
+			<li>
+				<i class="fas fa-check-circle"></i>
+				Confetti Explosions upon Task Completions</li>
+			<li>
+				<i class="fas fa-check-circle"></i>
+				Social Media Announcments</li>
+			<li>
+				<i class="fas fa-check-circle"></i>
+				Real Time Collaborations</li>
+			<li>
+				<i class="fas fa-check-circle"></i>
+				Other awesome features</li>
+		</ul>
+		
+		<img src="//unsplash.it/200" alt="Man holding phone">
+<!-- 		<img src="images/holding-phone.jpg" alt="Man holding phone"> -->
+	</div>
+</section>
+
+<section class="testimonials-section"> 
+	<div class="container">
+		<ul>
+			<li>
+				<img src="//unsplash.it/200" alt="Person">
+<!-- 				<img src="images/person.jpg" alt="Person"> -->
+				
+				<blockquote>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nesciunt doloremque eligendi ex consequatur aperiam quos nostrum dolorem ducimus! Aperiam.
+				</blockquote>
+				<cite>- Jane Doe</cite>
+			</li>
+			
+			<li>
+				<img src="//unsplash.it/200" alt="Person">
+<!-- 				<img src="images/person.jpg" alt="Person"> -->
+				
+				<blockquote>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nesciunt doloremque eligendi ex consequatur aperiam quos nostrum dolorem ducimus! Aperiam.
+				</blockquote>
+				<cite>- Jane Doe</cite>
+			</li>
+			
+			<li>
+				<img src="//unsplash.it/200" alt="Person">
+<!-- 				<img src="images/person.jpg" alt="Person"> -->
+				
+				<blockquote>
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nesciunt doloremque eligendi ex consequatur aperiam quos nostrum dolorem ducimus! Aperiam.
+				</blockquote>
+				<cite>- Jane Doe</cite>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="contact-section">
+	<div class="container">
+		<div class="contact-left">
+			<h2>Contact</h2>
+			
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name">
+				
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				
+				<input type="submit" class="send-message-cta" value="Send Message">
+			</form>
+		</div>
+		
+		<div class="contact-right">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2994.4884429241893!2d69.20061851848924!3d41.363471539683495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1615587139949!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</div>
+</section>
+
+<script src="js/app.js"></script>
+</body>
+</html>
